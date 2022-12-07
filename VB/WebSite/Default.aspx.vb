@@ -1,11 +1,11 @@
 ﻿Imports Microsoft.VisualBasic
 Imports System
-Imports DevExpress.Web.ASPxGridView
+Imports DevExpress.Web
 
 Partial Public Class _Default
 	Inherits System.Web.UI.Page
 
-	Protected Sub ASPxGridView1_CustomColumnSort(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridView.CustomColumnSortEventArgs)
+	Protected Sub ASPxGridView1_CustomColumnSort(ByVal sender As Object, ByVal e As DevExpress.Web.CustomColumnSortEventArgs)
 		Dim grid As ASPxGridView = TryCast(sender, ASPxGridView)
 		Dim isRow1Selected As Boolean = grid.Selection.IsRowSelectedByKey(e.GetRow1Value(grid.KeyFieldName))
 		Dim isRow2Selected As Boolean = grid.Selection.IsRowSelectedByKey(e.GetRow2Value(grid.KeyFieldName))

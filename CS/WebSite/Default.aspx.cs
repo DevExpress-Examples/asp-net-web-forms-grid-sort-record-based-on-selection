@@ -1,8 +1,8 @@
-﻿using DevExpress.Web.ASPxGridView;
+﻿using DevExpress.Web;
 
 public partial class _Default : System.Web.UI.Page {
 
-    protected void ASPxGridView1_CustomColumnSort(object sender, DevExpress.Web.ASPxGridView.CustomColumnSortEventArgs e) {
+    protected void ASPxGridView1_CustomColumnSort(object sender, DevExpress.Web.CustomColumnSortEventArgs e) {
         ASPxGridView grid = sender as ASPxGridView;
         bool isRow1Selected = grid.Selection.IsRowSelectedByKey(e.GetRow1Value(grid.KeyFieldName));
         bool isRow2Selected = grid.Selection.IsRowSelectedByKey(e.GetRow2Value(grid.KeyFieldName));
