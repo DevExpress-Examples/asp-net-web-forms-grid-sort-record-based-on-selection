@@ -6,7 +6,7 @@
 
 # GridView for ASP.NET Web Forms - How to sort records based on selection
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e20066/)**
+**[[Run Online]](https://codecentral.devexpress.com/128535838/)**
 <!-- run online end -->
 
 This example demonstrates how to handle the grid's `CustomColumnSort` event to sort records based on their selection state.
