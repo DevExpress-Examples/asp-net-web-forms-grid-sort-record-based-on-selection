@@ -21,7 +21,7 @@ Since [GridViewCommandColumn](https://docs.devexpress.com/AspNet/DevExpress.Web.
 * [Default.aspx](./CS/WebSite/Default.aspx)
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-sort-record-based-on-selection&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-web-forms-grid-sort-record-based-on-selection&~~~was_helpful=no)
 
